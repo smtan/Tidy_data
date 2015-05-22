@@ -195,6 +195,7 @@ read.table function. Hence a sample outout of this file is produced here for eas
 
 =================================================================================================================================
 Subject.ID		Activity.labels	X1.tBodyAcc.mean...X	X2.tBodyAcc.mean...Y	X3.tBodyAcc.mean...Z
+
 1			laying		0.2215982		-0.040513953		-0.11320355	
 1			sitting		0.2612376		-0.001308288		-0.10454418	
 1			standing	0.2789176		-0.016137590		-0.11060182	
