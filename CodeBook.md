@@ -188,18 +188,16 @@ The final Data file:
 
 Notes: 
 ======
-The instruction for this assignment states that the final output file should be in .txt format,  and this is done in the last line of
-the R script. However, this format cannot be legibly read when using the usual WORD or NOTEPAD programs unless using R or RStudio 
-read.table function. Hence a sample outout of this file is produced here for easy reference of the "tidiness" of the dataset 
+The instruction for this assignment states that the final output file should be in .txt format,  and this is done in the last line of the R script. However, this format cannot be legibly read when using the usual WORD or NOTEPAD programs unless using R or RStudio read.table function. A sample output of header of this file is produced here for easy reference.
 (using read.table function):
 
-=================================================================================================================================
-Subject.ID		Activity.labels	X1.tBodyAcc.mean...X	X2.tBodyAcc.mean...Y	X3.tBodyAcc.mean...Z
+============================================================================================================================
+Subject.ID	Activity.labels	X1.tBodyAcc.mean...X	X2.tBodyAcc.mean...Y	X3.tBodyAcc.mean...Z	
+1		laying		0.2215982		-0.040513953		-0.11320355		
+1		sitting		0.2612376		-0.001308288		-0.10454418		
+1		standing	0.2789176		-0.016137590		-0.11060182	
 
-1			laying		0.2215982		-0.040513953		-0.11320355	
-1			sitting		0.2612376		-0.001308288		-0.10454418	
-1			standing	0.2789176		-0.016137590		-0.11060182	
 
-=================================================================================================================================	
+============================================================================================================================
 
 
