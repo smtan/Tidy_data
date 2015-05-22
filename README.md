@@ -95,9 +95,6 @@ combine <- rbind(traincom, testcom) # merge test and train files
 
 library(plyr)
 #library(dplyr) - alternate method to produce final summary table using dplyr summarise_each function
-#combine %.%
-#    group_by(Subject.ID, Activity.labels) %.%
-#    summary.data <- summarise_each(funs(mean))
 
 
 summary.data <- ddply(combine, .(Subject.ID, Activity.labels), colwise(mean)) # ddply function from plyr package
@@ -109,17 +106,5 @@ write.table(summary.data, file="summary.txt", quote=FALSE, sep=",", row.names=FA
 
 Notes: 
 ======
-The instruction for this assignment states that the final output file should be in .txt format,  and this is done in the last line of
-the R script. However, this format cannot be legibly read when using the usual WORD or NOTEPAD programs. Hence a sample outout of this 
-file is produced here for easy reference of the "tidiness" of the dataset:
-
-=============================================================================================================================
-Subject.ID	Activity.labels	X1.tBodyAcc.mean...X	X2.tBodyAcc.mean...Y	X3.tBodyAcc.mean...Z
-
-1		          laying		      0.2215982		          -0.040513953		      -0.11320355		
-1		          sitting		      0.2612376		          -0.001308288		      -0.10454418		
-1		          standing	      0.2789176		          -0.016137590		      -0.11060182		
-
-=============================================================================================================================
-
+The instruction for this assignment states that the final output file should be in .txt format,  and this is done in the last line of the R script. However, this format cannot be legibly read when using the usual WORD or NOTEPAD programs.
 
