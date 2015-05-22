@@ -194,10 +194,10 @@ read.table function. Hence a sample outout of this file is produced here for eas
 (using read.table function):
 
 =================================================================================================================================
-Subject.ID	Activity.labels	X1.tBodyAcc.mean...X	X2.tBodyAcc.mean...Y	X3.tBodyAcc.mean...Z	X41.tGravityAcc.mean...X
-1		laying		0.2215982		-0.040513953		-0.11320355		-0.2488818	
-1		sitting		0.2612376		-0.001308288		-0.10454418		0.8315099	
-1		standing	0.2789176		-0.016137590		-0.11060182		0.9429520	
+Subject.ID		Activity.labels	X1.tBodyAcc.mean...X	X2.tBodyAcc.mean...Y	X3.tBodyAcc.mean...Z
+1			laying		0.2215982		-0.040513953		-0.11320355	
+1			sitting		0.2612376		-0.001308288		-0.10454418	
+1			standing	0.2789176		-0.016137590		-0.11060182	
 
 =================================================================================================================================	
 
